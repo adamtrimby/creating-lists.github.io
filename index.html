@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Lists</title>
+    <link href="/cheat_sheet/styles.css" type="text/css" rel="stylesheet">
+</head>
+  <body>
+   <h1 class="title">Creating lists</h1>
+   <h2 class="title">Html tags</h2>
+   <table class="top-table">
+     <thead class="thead">
+       <tr>
+         <td>Tag</td>
+         <td>Name</td>
+         <td>Description</td>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td><span class="mono">&lt;ul&gt;</span></td>
+         <td>Unordered list</td>
+         <td>A list in a non specific order</td>
+       </tr>
+       <tr>
+         <td><span class="mono">&lt;ol&gt;</span></td>
+         <td>Ordered list</td>
+         <td>A list in a non specific order</td>
+       </tr>
+       <tr>
+         <td class="no-border"><span class="mono">&lt;li&gt;</span></td>
+         <td class="no-border">List tag</td>
+         <td class="no-border">The list item</td>
+       </tr>
+     </tbody>
+   </table>
+   <h2 class="title">CSS list properties</h2>
+   <h3>The <span class="mono">&lt;list-style-type&gt;</span> property specifies the type of list item marker</h3>
+   <table class="top-table">
+      <thead class="thead">
+       <tr>
+         <td>Property</td>
+         <td>List type</td>
+         <td>Description</td>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td><span class="mono">&lt;default&gt;</span></td>
+         <td>unordered</td>
+         <td>An unordered list with bullet points</td>
+       </tr>
+       <tr>
+         <td><span class="mono">&lt;none&gt;</span></td>
+         <td>unordered</td>
+         <td>Renders without bullet points</td>
+       </tr>
+       <tr>
+         <td><span class="mono">&lt;circle&gt;</span></td>
+         <td>unordered</td>
+         <td>An unordered list with circle bullet points</td>
+       </tr>
+       <tr>
+         <td><span class="mono">&lt;square&gt;</span></td>
+         <td>unordered</td>
+         <td>An unordered list with square bullet points</td>
+       </tr>
+        <tr>
+         <td><span class="mono">&lt;default&gt;</span></td>
+         <td>ordered</td>
+         <td>An ordered list with numerical markers</td>
+       </tr>
+              <tr>
+         <td><span class="mono">&lt;none&gt;</span></td>
+         <td>ordered</td>
+         <td>Renders without numbered points</td>
+       </tr>
+              <tr>
+         <td><span class="mono">&lt;upper-roman&gt;</span></td>
+         <td>ordered</td>
+         <td>An ordered list with Roman Numeral markers</td>
+       </tr>
+              <tr>
+         <td class="no-border"><span class="mono">&lt;lower-alpha&gt;</span></td>
+         <td class="no-border">ordered</td>
+         <td class="no-border">An ordered list with lowercase latin alphabet markers</td>
+       </tr>
+     </tbody>
+   </table>
+   <h2 class="title">Examples</h2>
+   <table class="examples">
+     <tr>
+       <td>
+          <ul>
+            <li class="default">One</li>
+            <li class="default">Two</li>
+            <li class="default">Three</li>
+          </ul>
+       </td>
+       <td>
+          <ul>
+            <li class="none">One</li>
+            <li class="none">Two</li>
+            <li class="none">Three</li>
+          </ul>
+       </td>
+       <td>
+          <ul>
+            <li class="circle">One</li>
+            <li class="circle">Two</li>
+            <li class="circle">Three</li>
+          </ul>
+       </td>
+       <td>
+          <ul>
+            <li class="square">One</li>
+            <li class="square">Two</li>
+            <li class="square">Three</li>
+          </ul>
+       </td>
+     </tr>
+          <tr>
+       <td>
+          <ol>
+            <li class="default">One</li>
+            <li class="default">Two</li>
+            <li class="default">Three</li>
+          </ol>
+       </td>
+       <td>
+          <ol>
+            <li class="none">One</li>
+            <li class="none">Two</li>
+            <li class="none">Three</li>
+          </ol>
+       </td>
+       <td>
+          <ol>
+            <li class="upper-roman">One</li>
+            <li class="upper-roman">Two</li>
+            <li class="upper-roman">Three</li>
+          </ol>
+       </td>
+       <td>
+          <ol>
+            <li class="lower-alpha">One</li>
+            <li class="lower-alpha">Two</li>
+            <li class="lower-alpha">Three</li>
+          </ol>
+       </td>
+     </tr>
+   </table>
+   </body>
+</html>
